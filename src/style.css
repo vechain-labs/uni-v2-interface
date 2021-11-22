@@ -1,0 +1,280 @@
+:root {
+  --el-color-primary: #7142FF;
+  --el-color-primary-light-1:#7F54FF;
+  --el-color-primary-light-2:#8D68FF;
+  --el-color-primary-light-3:#9B7AFF;
+  --el-color-primary-light-4:#AA8EFF;
+  --el-color-primary-light-5:#B8A0FF;
+  --el-color-primary-light-6:#C6B3FF;
+  --el-color-primary-light-7:#D4C6FF;
+  --el-color-primary-light-8:#E3D9FF;
+  --el-color-primary-light-9:#F0ECFF;
+  --el-color-danger:#CE4B4B;
+  --el-color-error:#CE4B4B;
+}
+body {
+  font-family: Montserrat, Avenir, Helvetica, Arial, sans-serif;
+  /* background-color: #f5f7fa; */
+  background: #f4f4f7;
+}
+.add-lp-form .el-input__inner,
+.swap-form .el-input__inner {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 19px;
+  font-size: 24px;
+  font-family: avenir;
+  text-align: right;
+}
+.swap-form .el-button--mini.is-circle {
+  padding: 8px;
+}
+.swap-form .el-input-group__prepend,
+.add-lp-form .el-input-group__prepend {
+  padding: 0 10px;
+}
+
+.swap-form .el-input-group__prepend .el-row,
+.add-lp-form .el-input-group__prepend .el-row {
+  width: 90px;
+}
+.el-form-item .el-button span {
+  font-size: 16px;
+}
+
+.remove-lp-form .el-card__header {
+  padding: 10px;
+}
+.remove-lp-form .el-card__body{
+  padding:10px;
+}
+.remove-lp-form .el-card {
+  margin-top: 20px;
+}
+.account-info {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.account-info .el-dialog__body {
+  padding: 10px 20px 20px;
+}
+.account-info .el-dialog__body > div {
+  background-color: #f5f7fa;
+  padding: 15px;
+  border-radius: 10px;
+}
+.account-info .el-dialog__footer {
+  padding-top: 20px;
+  background-color: #f5f7fa;
+}
+.icon {
+  border-radius: 50%;
+  border: 1px solid #eee;
+  background-color: white;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+.vet-icon {
+  background-image: url(./assets/vet.svg);
+}
+.vtho-icon {
+  background-image: url(./assets/vtho.svg);
+}
+
+input.cus-input::-webkit-outer-spin-button,
+input.cus-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input.cus-input[type='number'] {
+  -moz-appearance: textfield;
+}
+.address-btn.el-button--primary.is-plain:focus {
+  /* color: #409eff;
+  background: #ecf5ff;
+  border-color: #b3d8ff; */
+  background: #EFEDFB;
+  color: #5F50D5;
+  border-color: #CFCAF2;
+}
+
+.address-btn.el-button--primary.is-plain:hover {
+  /* background: #409eff;
+  border-color: #409eff;
+  color: #fff; */
+  background: #EFEDFB;
+  color: #5F50D5;
+  border-color: #CFCAF2;
+}
+.address-btn.el-button--primary.is-plain:active {
+  /* background: #3a8ee6;
+  border-color: #3a8ee6;
+  color: #fff; */
+  background: #EFEDFB;
+  color: #5F50D5;
+  border-color: #CFCAF2;
+  outline: 0;
+}
+
+/* Customize Theme */
+
+/* button */
+.el-button{
+  font-family: Montserrat;
+}
+.el-button.el-button--primary{
+  background:#7142FF;
+  border:0;
+}
+.el-button.el-button--primary:focus,
+.el-button.el-button--primary:hover{
+  background: #8D68FF;
+}
+.el-button--danger{
+  background: #CE4B4B;
+  border:0;
+}
+.el-button--danger:focus,
+.el-button--danger:hover{
+  background: #D86F6F;
+}
+
+/* tap button */
+.el-radio-button__original-radio:checked+.el-radio-button__inner{
+  background: #7142FF;
+  border:0;
+  border-radius:20px;
+}
+.el-radio-button__inner:hover{
+  color:#7142FF;
+}
+.el-radio-button__inner{
+  background: transparent;
+  border:0 ! important;
+}
+.el-radio-group{
+  border-radius:20px;
+  background: #dad6de;
+}
+
+/* card */
+.el-card{
+  border-radius: 20px;
+}
+.el-card__body{
+  /* padding:25px;*/
+  padding:20px;
+}
+
+/* account button */
+el-button--primary.is-plain{
+  border: 1px solid #C3BDEF;
+  color: #3724ca;
+  background-color: #EBE9FA;
+}
+el-button--primary.is-plain:hover,
+el-button--primary.is-plain:focus{
+  background: #EFEDFB;
+  color: #5F50D5;
+  border-color: #CFCAF2;
+}
+.address-btn.el-button--primary.is-plain:hover img,
+.address-btn.el-button--primary.is-plain:focus img{
+  opacity:0.8;
+}
+
+/* form */
+.grey-form-item {
+  background: #F4F7FA;
+  padding: 10px 20px;
+  border-radius: 20px;  
+  margin-bottom:10px;
+}
+.grey-form-item .el-input-group__prepend{
+  border:0;
+  background:transparent;
+  padding: 0;
+}
+.grey-form-item .el-input__inner{
+  border:0;
+  background:transparent;
+  padding: 0;
+  font-size: 28px;
+  color:#111;
+  font-weight: 500;
+}
+.grey-form-item .el-form-item__error{
+  margin-top: 10px;
+  text-align: right;
+  width: 100%;
+}
+.el-form div:first-child{
+  margin-top:0;
+}
+.el-form div:last-child{
+  margin-bottom:0;
+}
+
+/* account; plain button */
+.el-button--primary.is-plain{
+  border: 1px solid #C3BDEF;
+  color: #3724ca;
+  background-color: #EBE9FA;
+}
+.el-button--primary.is-plain:hover,
+.el-button--primary.is-plain:focus{
+  background: #EFEDFB;
+  color: #5F50D5;
+  border-color: #CFCAF2;
+}
+
+.el-dropdown__popper.el-popper{
+  border-radius: 10px;
+}
+.el-popover.el-popper{
+  word-break: keep-all;
+  text-align: left;
+}
+
+/* lp */
+.pool-card .el-card__header,
+.pool-card .el-card__body{
+  border:0;
+}
+.pool-card .el-card__header{
+  padding-bottom:0;
+  font-weight: 600;
+}
+.pool-card .el-card.is-never-shadow{
+  border:0;
+  background:#F5F7FA ;
+  padding: 10px;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('/fonts/Montserrat/montserrat-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Montserrat/montserrat-regular.woff') format('woff'); /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('/fonts/Montserrat/montserrat-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Montserrat/montserrat-500.woff') format('woff'); /* Modern Browsers */
+}
+
+/*mobile*/
+@media screen and (max-width: 374px) {
+  .pool-card .el-card.is-never-shadow{
+    padding:0;
+  }
+}
